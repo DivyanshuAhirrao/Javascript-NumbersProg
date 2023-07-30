@@ -67,6 +67,7 @@ h2{
     font-size: 16px;
 }
 button{
+   font-color: black;
    font-size: 14px;
    margin: 10px 10px;
    font-weight: 500;
