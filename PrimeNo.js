@@ -100,3 +100,12 @@ function pallindrome(){
         div.innerHTML += `${str} is not a Pallindrome Number`;
     }
 }
+
+function factorial() {
+  let num = parseInt(prompt("Enter the Number to Find its Factorial !! "));
+  let fact = 1;
+  for (let i = 1; i <= num; i++) {
+    fact = fact * i;
+  }
+  div.innerHTML += `Factorial of ${num} is :- ${fact}`;
+}
